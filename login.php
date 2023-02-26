@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/login.css">
+    <link rel="stylesheet" href="./login.css">
     <title>Document</title>
 </head>
 <body>
@@ -35,12 +35,12 @@
                     <button>Entrar</button>
                 </form>
                             <!-- RESGISTRO -->
-                <form action="" class="formulario__register">
+                <form action="php/registro_usuario_be.php" method ="POST" class="formulario__register">
                     <h2>Registro</h2>
-                    <input type="text" placeholder="Nombre Completo"">
-                    <input type="text" placeholder="Correo Electronico">
-                    <input type="text" placeholder="Usuario">
-                    <input type="text" placeholder="Contraseña">
+                    <input type="text" placeholder="Nombre Completo" name= "nombre_completo">
+                    <input type="text" placeholder="Correo Electronico" name= "correo">
+                    <input type="text" placeholder="Usuario" name = "usuario">
+                    <input type="text" placeholder="Contraseña"  name ="contrasena">
                     <button>Resgistrarse</button>
 
                 </form>
@@ -48,6 +48,6 @@
             
         </div>
     </main>
-    <script src="/javas/script.js"></script>
+    <script src="./javas/script.js"></script>
 </body>
 </html>
